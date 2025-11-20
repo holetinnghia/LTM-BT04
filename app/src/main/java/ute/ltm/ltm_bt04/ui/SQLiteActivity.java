@@ -1,6 +1,9 @@
-package ute.ltm.ltm_bt04.sqlite;
+package ute.ltm.ltm_bt04.ui;
 
 import ute.ltm.ltm_bt04.*;
+import ute.ltm.ltm_bt04.adapter.NotesAdapter;
+import ute.ltm.ltm_bt04.model.NotesModel;
+import ute.ltm.ltm_bt04.sqlite.DatabaseHandler;
 
 import android.app.Dialog;
 import android.content.DialogInterface;

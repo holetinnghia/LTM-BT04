@@ -1,6 +1,8 @@
-package ute.ltm.ltm_bt04.sqlite;
+package ute.ltm.ltm_bt04.adapter;
 
 import ute.ltm.ltm_bt04.*;
+import ute.ltm.ltm_bt04.model.NotesModel;
+import ute.ltm.ltm_bt04.ui.SQLiteActivity;
 
 import android.content.Context;
 import android.view.LayoutInflater;

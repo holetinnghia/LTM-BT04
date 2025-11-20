@@ -1,6 +1,7 @@
 package ute.ltm.ltm_bt04;
 
-import ute.ltm.ltm_bt04.sqlite.*;
+import ute.ltm.ltm_bt04.ui.SQLiteActivity;
+import ute.ltm.ltm_bt04.ui.SharedPrefActivity;
 import ute.ltm.ltm_bt04.ui.UserListActivity;
 
 import android.content.Intent;
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnGoToSQLite;
     Button btnGoToDataBinding;
+    Button btnGoToSharedPref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, UserListActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnGoToSharedPref = findViewById(R.id.btnGoToSharedPref);
+        btnGoToSharedPref.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SharedPrefActivity.class);
                 startActivity(intent);
             }
         });

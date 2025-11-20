@@ -1,4 +1,4 @@
-package ute.ltm.ltm_bt04.databinding;
+package ute.ltm.ltm_bt04.ui;
 
 import android.os.Bundle;
 import android.view.View;

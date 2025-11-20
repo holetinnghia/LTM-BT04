@@ -22,4 +22,13 @@
         android:padding="20dp"
         android:textSize="18sp"/>
 
+    <Button
+        android:id="@+id/btnGoToSharedPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SharedPref"
+        android:layout_marginTop="16dp"
+        android:padding="20dp"
+        android:textSize="18sp"/>
+
 </LinearLayout>

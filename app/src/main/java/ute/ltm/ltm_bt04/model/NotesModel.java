@@ -1,4 +1,4 @@
-package ute.ltm.ltm_bt04.sqlite;
+package ute.ltm.ltm_bt04.model;
 
 public class NotesModel {
     private int IdNotes;
